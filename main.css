@@ -46,10 +46,11 @@ h1 {
 .input:focus {
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
 }
-.greenbackground {
-    background-image: linear-gradient(to bottom, #7ed272, #7ed272);
-}
+
 
 .coldBackground {
     background-image: linear-gradient(to bottom, #97caef, #97caef);
+}
+.greenBackground {
+    background-image: linear-gradient(to bottom, #50C878, green);
 }
