@@ -51,6 +51,6 @@ h1 {
 .coldBackground {
     background-image: linear-gradient(to bottom, #97caef, #97caef);
 }
-.greenBackground {
-    background-image: linear-gradient(to bottom, #50C878, green);
+.hotBackground {
+    background-image: linear-gradient(to bottom, #ec571c, rgb(128, 0, 0));
 }

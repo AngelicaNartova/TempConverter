@@ -34,7 +34,7 @@ for (let i = 0; i < inputs.length; i++) {
         let newBackground;
 
         if (celInput.value >= 20) {
-            newBackground = document.getElementById('main').classList.add('greenBackground');
+            newBackground = document.getElementById('main').classList.add('hotBackground');
             return newBackground;
 
         } else {
