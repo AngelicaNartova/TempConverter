@@ -1,46 +1,31 @@
 const celInput = document.getElementById('celcius');
 const farhenInput = document.getElementById('fahrenheit');
-const kelvInput = document.getElementById('kelvin');
 
 const inputs = document.getElementsByClassName('input');
+const inputArray = [...inputs];
 
-for (let i = 0; i < inputs.length; i++) {
-    let input = inputs[i];
+let newClassBackgrnd = document.getElementById('main');
 
-    input.addEventListener('input', function (e) {
-        let value = parseFloat(e.target.value);
+inputArray.forEach((input, index, arr) => {
+    input.addEventListener('input', (event) => {
 
-        switch (e.target.name) {
-
-            case "celcius":
-
-                farhenInput.value = (value * 1.8) + 32;
-                kelvInput.value = value + 273.15;
-                break;
-
-            case "fahrenheit":
-
-                celInput.value = (value - 32) / 1.8;
-                kelvInput.value = ((value - 32) / 1.8) + 273.15;
-                break;
-
-            case "kelvin":
-
-                celInput.value = value - 273.15;
-                farhenInput.value = ((value - 273.15) * 1.8) + 32;
-                break;
-        }
-
-        let newBackground;
-
-        if (celInput.value >= 20) {
-            newBackground = document.getElementById('main').classList.add('hotBackground');
-            return newBackground;
-
+        const value = event.target.value;
+        
+        if (event.target.name == 'celcius') {
+            farhenInput.value = (value * 1.8) + 32;
         } else {
-            newBackground = document.getElementById('main').classList.add('coldBackground');
-            return newBackground;
+            celInput.value = (value - 32) / 1.8;
+        }       
 
-        } 
+        if (celInput.value >= 25) {
+            newClassBackgrnd.className = "hotBackground";
+        } else if (celInput.value < 25 && celInput.value >= 10) {
+            newClassBackgrnd.className = 'warmBackground';
+ 
+        }else {
+            newClassBackgrnd.className = 'coldBackground';
+        }
     });
-};
+});
+
+
