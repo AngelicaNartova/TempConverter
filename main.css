@@ -47,12 +47,12 @@ input:focus {
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
 }
 
-.coldBackground {
+.cold-background {
     background-image: linear-gradient(to bottom, #97caef, #97caef);
 }
-.hotBackground {
+.hot-background {
     background-image: linear-gradient(to bottom, #ec571c, rgb(128, 0, 0));
 }
-.warmBackground {
+.warm-background {
     background-image: linear-gradient(to bottom, #1cec3f, rgb(51, 128, 0));
 }
