@@ -3,7 +3,8 @@ This project is a function for converting degrees from Celsius and Fahrenheit an
 this, I used a JavaScript event listener and updated my background dynamically based on temperature
 values.
 
-![main](https://user-images.githubusercontent.com/78755964/192160214-98b0c68b-1c21-4d54-ae3c-9bf2ea813344.PNG)
-![coldTemper](https://user-images.githubusercontent.com/78755964/192160248-9fd3a052-ee5c-4010-8b36-fe4bdbbf5c57.PNG)
-![warmTemper](https://user-images.githubusercontent.com/78755964/192160249-fc05bb5e-8dc5-4fe4-a50c-5f752b8ca9d9.PNG)
-![hotTemper](https://user-images.githubusercontent.com/78755964/192160250-c2cdf9d1-58cd-4551-988b-792f3a77b9d9.PNG)
+![main](https://user-images.githubusercontent.com/78755964/192164609-99bd339b-4e78-4ec0-97ce-3b2e25fbc213.PNG)
+![cold](https://user-images.githubusercontent.com/78755964/192164610-75809354-c134-49bc-8e69-5a72f6b5ba7b.PNG)
+![warm](https://user-images.githubusercontent.com/78755964/192164615-3c6de735-5f04-41c9-9d81-2b362d78af0b.PNG)
+![hot](https://user-images.githubusercontent.com/78755964/192164618-613aacaa-e43d-4fd5-830c-2f2360bed554.PNG)
+
