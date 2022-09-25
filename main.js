@@ -1,5 +1,6 @@
 const celInput = document.getElementById('celcius');
 const farhenInput = document.getElementById('fahrenheit');
+let newClassBackgrnd = document.getElementById('main');
 
 const inputs = document.getElementsByClassName('input');
 const inputArray = [...inputs];
@@ -13,9 +14,7 @@ inputArray.forEach((input, index, arr) => {
             farhenInput.value = (value * 1.8) + 32;
         } else {
             celInput.value = (value - 32) / 1.8;
-        }  
-        
-        let newClassBackgrnd = document.getElementById('main');     
+        }       
 
         if (celInput.value >= 25) {
             newClassBackgrnd.className = "hotBackground";
