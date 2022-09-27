@@ -1,6 +1,6 @@
-﻿# TemperatureConverter
+﻿# Temperature Converter
 This project is an app for converting degrees from Celsius to Fahrenheit and vice versa. I used
-JavaScript to create dynamic background which changes its color depending on temperature values.
+JavaScript to create a dynamic background which changes its color depending on temperature values.
 
 
 ![main](https://user-images.githubusercontent.com/78755964/192164609-99bd339b-4e78-4ec0-97ce-3b2e25fbc213.PNG)
